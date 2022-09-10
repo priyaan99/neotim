@@ -26,6 +26,9 @@ void col_delete(Col* col, int at);
 void row_delete(Row* row, int at);
 
 void free_col(Col* col);
-void free_row(Row* row, int at);
+//void free_row(Row* row, int at);
+
+void print_row(Row* r);
+void print_col(Col *c);
 
 #endif
